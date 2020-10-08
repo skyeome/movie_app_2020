@@ -1,0 +1,5 @@
+function Food(props){return <h1>I like {props.fav}</h1>;}
+
+props 객체 내부에는 fav라는 이름의 속성이 있기 때문에
+function Food({fav}){return <h1>I like {fav}</h1>;}
+위에 처럼 중괄호 안에 fav를 넣으면 fav의 속성값을 받아올수 있다.
